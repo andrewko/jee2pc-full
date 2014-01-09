@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="jee2pc-ear">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="jee2pc-ejb.jar" deploy-path="/" handle="module:/resource/jee2pc-ejb/jee2pc-ejb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jee2pc-web.war" deploy-path="/" handle="module:/resource/jee2pc-web/jee2pc-web">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jee2pc-api.jar" deploy-path="/lib" handle="module:/resource/jee2pc-api/jee2pc-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
