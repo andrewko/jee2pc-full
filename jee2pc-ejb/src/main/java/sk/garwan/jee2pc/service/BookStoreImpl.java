@@ -10,10 +10,6 @@ import javax.jms.TextMessage;
 
 import org.jboss.ejb3.annotation.ResourceAdapter;
 
-//@MessageDriven(activationConfig = {
-//		@ActivationConfigProperty(propertyName = "acknowledgeMode", propertyValue = "Auto-acknowledge"),
-//		@ActivationConfigProperty(propertyName = "destinationType", propertyValue = "javax.jms.Queue"),
-//		@ActivationConfigProperty(propertyName = "destination", propertyValue = "queue.queue_in") })
 @Stateless
 @ResourceAdapter("activemq-ra.rar")
 public class BookStoreImpl implements BookStore {
